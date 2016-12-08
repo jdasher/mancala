@@ -5,13 +5,13 @@ import javax.swing.JFrame;
 /**
  * @author jonathan
  */
-public class Builder {
+public class Build {
 	
 	public static Frame mainFrame = new Frame();
-	private static Panel mainPanel = new Panel();
-	private static MenuBar mainMenu = new MenuBar();
+	private Panel mainPanel = new Panel();
+	private MenuBar mainMenu = new MenuBar();
 	
-	public static void main(String[] args) {
+	public Build() {
 		mainFrame.setJMenuBar(mainMenu);
 		mainFrame.add(mainPanel);
 		mainFrame.setTitle("CustomGUI");

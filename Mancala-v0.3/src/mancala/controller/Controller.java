@@ -4,6 +4,7 @@
 package mancala.controller;
 
 import mancala.model.BoardModel;
+import mancala.textview.Build;
 
 /**
  * @author jonathan
@@ -16,7 +17,7 @@ public class Controller {
 		
 	}
 
-	public void setView(BoardView view) {
+	public void setView(Build view) {
 		// TODO Auto-generated method stub
 		
 	}

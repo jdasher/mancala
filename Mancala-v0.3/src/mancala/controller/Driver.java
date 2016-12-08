@@ -1,6 +1,7 @@
 package mancala.controller;
 
 import mancala.model.BoardModel;
+import mancala.textview.Build;
 
 /**
  * @author jonathan
@@ -11,7 +12,7 @@ public class Driver {
 
 	/** Static MVC variables */
 	static BoardModel model = new BoardModel();
-	static BoardView view = new BoardView();
+	static Build view = new Build();
 	static Controller controller = new Controller();
 
 	/** Linking everything together */
