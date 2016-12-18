@@ -7,6 +7,8 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import mancala.controller.Controller;
+
 public class Panel extends JPanel {
 
 	private static final long serialVersionUID = -5931426239657239552L;
@@ -122,4 +124,5 @@ public class Panel extends JPanel {
 		gridCon.insets = new Insets(10,10,10,10);
 		this.add(player1Label, gridCon);
 	}
+
 }
